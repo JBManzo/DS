@@ -1,3 +1,5 @@
 # DS
-codigo python para calcular distancias
 El código sirve para saber que tan cercana está la casa a los lugares de interés de determinada lista, primero se extrajeron las coordenadas con las que cotejar la información desde Google Maps, posteriormente se registran en la lista del código llamada “coordenadas”, luego se define la funciona para “contar”, esta registra con números cuantos elementos de la lista se encuentran cercanos a cada casa, calculando la distancia en línea recta entre coordenadas con la biblioteca “geopy” se determina que si las ubicaciones se encuentran a 800 metros (de 5 a 10 minutos caminando) o menos están cerca y se agrega, posteriormente se lee el archivo que realizo mi compañero con el scrapping en donde se encontraban las longitudes y latitudes de las propiedades, luego se crea la nueva columna según corresponda, para finalmente guardar el nuevo archivo con la columna nueva al final de este. Este proceso se realizó 4 veces con 4 listas de coordenadas distintas para calcular cercanías con estaciones de metro, hospitales, centros comerciales y centros educacionales como universidades y colegios.
+
+El desarrollo de todo este proceso se encuentra en el siguiente colab con las localidades utilizadas:
+https://colab.research.google.com/drive/1yocB93EbD2sW510ECvBgVGUG1PuZ-iWA?usp=sharing
